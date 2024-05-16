@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+      <meta charset="UTF-8"> 
+      <title>Portfolio Project 2</title>
+      <meta name="author" content="olamilekan">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header> 
+            <nav class="navbar">
+              <div class="container"> 
+                <div class="log">
+                 <a href="#" class="logo" id="pgh">NAKEL.</a>
+                </div> 
+                  <div class="menu-toggle" id="mobile-menu">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                  </div>
+                  <ul class="nav-list" id="nav-list">
+                      <li><a href="#about">ABOUT</a></li>
+                      <li><a href="#portfolio" id="pgh">PROJECTS</a></li>
+                      <li><a href="#services" id="pgh">SKILLS</a> </li> 
+                  </ul>
+              </div>
+            </nav>
+           </header> 
+
+
+        <div id="about" class="name">
+         <div>
+          <h1>OLAMILEKAN <br> OWOLEMI <br> - WEB <br> DEVELOPER</h1>
+          <p>Hi I'm Owolemi Olamilekan, a web developer <br> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna<br>
+           aliq ua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+         </div> 
+
+          <div>
+            <img src="https://i.imgur.com/YgPxFct.png" alt="description">
+          </div>
+        </div> 
+
+        <div id="portfolio" class="portfolio">
+            <div>
+                <h3>MY PROJECTS</h3>
+                <a class="proj" href="#collection">PROJECTS</a>
+            </div> <br> <br>
+            
+            <div>
+                <img src="https://i.imgur.com/u9oUdsq_d.webp?maxwidth=760&fidelity=grand" alt="description">
+            </div>
+        </div> 
+
+        <div id="collection" class="collection">
+            <div>
+                <img src="https://i.imgur.com/u9oUdsq_d.webp?maxwidth=760&fidelity=grand" alt="description">
+                <h3>PROJECT 1</h3>
+            </div>
+
+            <div>
+                <img src="https://i.imgur.com/u9oUdsq_d.webp?maxwidth=760&fidelity=grand" alt="description">
+                <h3>PROJECT 2</h3>
+            </div>
+
+            <div>
+                <img src="https://i.imgur.com/u9oUdsq_d.webp?maxwidth=760&fidelity=grand" alt="description">
+                <h3>PROJECT 3</h3>
+            </div>
+
+            <div>
+                <img src="https://i.imgur.com/u9oUdsq_d.webp?maxwidth=760&fidelity=grand" alt="description">
+                <h3>PROJECT 4</h3>
+            </div>
+        </div> 
+ 
+        <div class="service">
+            <h2 id="services">Skills</h2> <hr class="hr">
+            <div>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Reactjs</li>
+                <li>React Native</li>
+            </ul>
+            </div>
+        </div> 
+
+
+        <div class="social">
+
+            <div class="mlc">
+                <h3>NAKEL</h3>
+            </div>
+            <div class="media">
+                <a href="" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/owolemi-olamilekan-1a1355295/" class="fa fa-linkedin"></a>
+                <a href="https://github.com/nakelcode" class="fa fa-github"></a>
+                <a href="https://twitter.com/nakel_code"  class="fa fa-twitter"></a>
+            </div>
+        </div>
+
+        <footer>
+            <hr>
+            <p> &copy 2024 NAKEL...</p>
+          </footer>
+
+          <script>
+            const menuToggle = document.getElementById('mobile-menu');
+            const navList = document.getElementById('nav-list');
+            
+            menuToggle.addEventListener('click', () => {
+                navList.classList.toggle('active');
+            });
+            </script>
+    </body>
+ </html>
