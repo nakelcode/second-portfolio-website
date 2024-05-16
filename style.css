@@ -1,0 +1,280 @@
+body{
+  background-color: #ffffff;
+  color:#000000;
+  width: 100%;
+  max-width: 100%;
+}
+html{
+  margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  scroll-behavior: smooth;
+}
+.name{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-top: 130px;
+}
+.name h1{
+  font-family: "Marcellus", serif;
+  font-size:320%;
+
+}
+.name p{
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-size: 90%;
+  margin-left: 20px;
+}
+.name img{
+  width:400px;
+  height:400px;
+  margin-left: 40px;
+}
+.portfolio{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 90px;
+}
+.portfolio h3{
+  font-family: "Marcellus", serif;
+  font-size: 150%;
+
+}
+
+.portfolio img{
+  width:400px;
+  height: 400px;
+  margin-left: 20px;
+  margin-top: 20px ;
+  
+}
+.collection{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.collection div{
+  margin-left: 20px;
+}
+.collection h3{
+  font-family: "Marcellus", serif;
+  font-size: 130%;
+}
+.collection img{
+  width:400px;
+  height:400px;
+}
+.service{
+  text-align: center;
+  margin-top: 90px;
+}
+#services{
+  font-family: "Marcellus", serif;
+  font-weight: 600;
+  font-size: 200%;
+  
+}
+div ul{
+  font-family:"Marcellus",sans-serif ;
+  font-weight: 600;
+  font-size: 110%;
+}
+.hr{
+  height: 3px;
+  border: none;
+  background-color: #000000;
+  width: 3%;
+  border-radius: 50px;
+}
+.fa{
+  font-size: 30px;
+  width: 25px;
+  height:25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+
+}
+.fa:hover{
+  opacity: 0.7;
+}
+.fa-instagram{
+  background: #000000;
+  color: #ffffff;
+}
+.social{
+  
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+.fa-linkedin{
+  background-color: #000000;
+  color: #ffffff;
+}
+.fa-github{
+  background-color:#000000;
+  color: #ffffff;
+}
+.fa-twitter{
+  background-color: #000000;
+  color: #ffffff;
+}
+footer p{
+  text-align: center;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+}
+.media{
+  margin-left: 10px;
+}
+.mlc{
+  font-family: "Marcellus", serif;
+  font-size: 150%;
+  opacity: 0.5;
+  text-align: center;
+}
+.navbar {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 0;
+  font-size: 120%;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Marcellus", serif;
+  justify-content: center;
+}
+.navbar a{
+  text-decoration: none;
+  color: #000000;
+}
+.navbar a:hover{
+  color:#000000;
+
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+
+.bar {
+  width: 30px;
+  height: 2px;
+  background-color: #000000;
+  margin: 2px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+.nav-list li {
+  margin-right: 40px;
+}
+.log{
+  display:inline;
+  margin-left: 30px;
+}
+.logo{
+  color:#000000;
+  text-decoration: none;
+  font-size: 110%;
+  font-weight: 800;
+  font-family: "Marcellus", serif;
+}
+.logo a{
+  color:#000000;
+  text-decoration: none;
+}
+.logo a:hover{
+  color:#000000;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .nav-list {
+      display: none;
+      flex-direction: column;
+      background-color: #ffffff;
+      padding: 10px;
+      position: absolute;
+      top: 25px;
+      right: 0;
+      width: 100%;
+  }
+
+  .nav-list.active {
+      display: flex;
+  }
+
+  .nav-list li {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+  background-color:#ffffff;
+  justify-content: center;
+}
+.proj {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Courier New", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  margin:5px;
+  background-color: #000000;
+}
+
+
+.proj {
+  border-color:#000000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+
+.proj:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  color:#ffffff;
+  background-color:#000000;
+}
